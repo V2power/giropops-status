@@ -5,5 +5,5 @@ output "instance_ip" {
 
 output "db_ip" {
   description = "IP do Dabase privado"
-  value       = module.ambiente_dev[count.index].instance_db
+  value       = module.ambiente_dev.instance_db
 }
